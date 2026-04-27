@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+<body>
+    <div class="header" id="home">   
+      <div class="logo">
+        <a href="index.html">
+        <img src="./Pictures/logo.png" alt="logo">
+        </a>
+    </div>   
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html" >ABOUT </a></li>
+                <li><a href="Contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section">
+
+<!-- Background logo -->
+<img src="./Pictures/logo.png" class="bg-logo">
+
+<!-- Left Form -->
+<div class="contact-left">
+<h1>Contact Me</h1>
+
+<p>
+Feel free to contact me at anytime, I will get back<br>
+as soon as possible
+</p>
+
+<form id="contactForm">
+
+<label>Name</label>
+<input 
+type="text" 
+placeholder="Enter Name Here"
+required
+>
+
+<label>Phone number</label>
+<input type="tel"
+pattern="[0-9]{11}"
+placeholder="09XXXXXXXXX"
+required
+>
+
+<label>Message</label>
+<textarea 
+placeholder="Enter Message Here"
+required
+></textarea>
+
+<button type="submit">SEND</button>
+
+</form>
+</div>
+
+
+<!-- Right Red Accent -->
+<div class="red-box"></div>
+<div class="redbox"></div>
+
+<!-- Info Card -->
+<div class="info-card">
+<h2>Info</h2>
+
+<div class="info-item">
+<i class="fa-solid fa-envelope"></i>
+<span>julesoco456@gmail.com</span>
+</div>
+
+<div class="info-item">
+<i class="fa-solid fa-phone"></i>
+<span>+639978610555</span>
+</div>
+
+<div class="info-item">
+<i class="fa-brands fa-facebook"></i>
+<span>Jules Vincent Oco</span>
+</div>
+
+<div class="info-item">
+<i class="fa-brands fa-instagram"></i>
+<span>_juleess1</span>
+</div>
+
+<div class="info-item">
+<i class="fa-solid fa-location-dot"></i>
+<span>Purok 3, Himaya, El Salvador City</span>
+</div>
+
+</div>
+
+</section>
+
+
+
+   
+</body>
+</html>
